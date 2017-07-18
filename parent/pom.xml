@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>pt.org.lr</groupId>
+    <artifactId>parent</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <developers>
+        <developer>
+            <email></email>
+            <name>Luis Riscado</name>
+            <id>lr</id>
+            <organization>ORG LR</organization>
+            <organizationUrl>lr.org.pt</organizationUrl>
+            <roles>
+                <role>Developer</role>
+                <role>Architect</role>
+                <role>Researcher</role>
+                <role>Curious</role>
+            </roles>
+        </developer>
+    </developers>
+    <organization>
+        <name>ORG LR</name>
+        <url>lr.org.pt</url>
+    </organization>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+</project>

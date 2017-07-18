@@ -1,2 +1,5 @@
 # orglr-maven-parent
-Parent pom for my maven project 
+
+Parent pom for my maven projects
+
+
