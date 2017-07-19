@@ -34,9 +34,10 @@
             <organizationUrl>lr.org.pt</organizationUrl>
             <roles>
                 <role>Developer</role>
-                <role>Architect</role>
                 <role>Researcher</role>
                 <role>Curious</role>
+                <role>Analyst</role>
+                <role>Tester</role>
             </roles>
         </developer>
     </developers>
