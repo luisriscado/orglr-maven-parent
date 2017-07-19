@@ -6,7 +6,7 @@
     <version>0.1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     
-    <name>org-lr-parent</name>
+    <name>${project.groupId}:${project.artifactId}</name>
     <description>Parent pom for Open Source Projects from ORG LR</description>
     <url>https://github.com/luisriscado/orglr-maven-parent</url>
     
