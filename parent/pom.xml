@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>pt.org.lr</groupId>
+    <groupId>pt.lr.os</groupId>
     <artifactId>parent</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
     
     <name>${project.groupId}:${project.artifactId}</name>
-    <description>Parent pom for Open Source Projects from ORG LR</description>
+    <description>Parent pom for Open Source Projects from lr-os</description>
     <url>https://github.com/luisriscado/orglr-maven-parent</url>
     
     
@@ -27,23 +27,21 @@
     
     <developers>
         <developer>
-            <email></email>
+            <email>developer@lr-os.pt</email>
             <name>Luis Riscado</name>
             <id>lr</id>
-            <organization>ORG LR</organization>
-            <organizationUrl>lr.org.pt</organizationUrl>
+            <organization>ORG.LR</organization>
+            <organizationUrl>lr-os.pt</organizationUrl>
             <roles>
                 <role>Developer</role>
                 <role>Researcher</role>
                 <role>Curious</role>
-                <role>Analyst</role>
-                <role>Tester</role>
             </roles>
         </developer>
     </developers>
     <organization>
-        <name>ORG LR</name>
-        <url>lr.org.pt</url>
+        <name>lr-os</name>
+        <url>lr-os.pt</url>
     </organization>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
