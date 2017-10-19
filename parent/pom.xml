@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>pt.lr.os</groupId>
+    <groupId>pt.lr-os</groupId>
     <artifactId>parent</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
@@ -30,8 +30,8 @@
             <email>developer@lr-os.pt</email>
             <name>Luis Riscado</name>
             <id>lr</id>
-            <organization>ORG.LR</organization>
-            <organizationUrl>lr-os.pt</organizationUrl>
+            <organization>lr-os</organization>
+            <organizationUrl>www.lr-os.pt</organizationUrl>
             <roles>
                 <role>Developer</role>
                 <role>Researcher</role>
@@ -41,7 +41,7 @@
     </developers>
     <organization>
         <name>lr-os</name>
-        <url>lr-os.pt</url>
+        <url>www.lr-os.pt</url>
     </organization>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
