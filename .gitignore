@@ -1,1 +1,4 @@
 *.*.asc
+parent/target/test-classes/.netbeans_automatic_build
+parent/target/classes/.netbeans_automatic_build
+parent/target/parent-1.0.0.pom
