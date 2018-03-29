@@ -100,21 +100,28 @@
     </dependencyManagement>
     <profiles>
         <profile>
-            <id>spotbugs</id>
+            <id>code</id>
             <build>
                 <plugins>
                     <plugin>
-                        <groupId>com.github.spotbugs</groupId>
-                        <artifactId>spotbugs-maven-plugin</artifactId>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-pmd-plugin</artifactId>
+                        <version>3.9.0</version>
                         <executions>
                             <execution>
-                                <id>code-analisys</id>
-                                <phase>verify</phase>
+                                <phase>compile</phase>
                                 <goals>
-                                    <goal>check</goal>
+                                    <goal>pmd</goal>
+                                    <goal>cpd</goal>
                                 </goals>
                             </execution>
                         </executions>
+                        <configuration>
+                            <printFailingErrors>true</printFailingErrors>
+                            <sourceEncoding>utf-8</sourceEncoding>
+                            <minimumTokens>100</minimumTokens>
+                            <targetJdk>1.8</targetJdk>
+                        </configuration>
                     </plugin>
                 </plugins>
             </build>
@@ -157,6 +164,30 @@
                                 <phase>verify</phase>
                                 <goals>
                                     <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-source-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>attach-sources</id>
+                                <goals>
+                                    <goal>jar</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-javadoc-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>attach-javadocs</id>
+                                <goals>
+                                    <goal>jar</goal>
                                 </goals>
                             </execution>
                         </executions>
